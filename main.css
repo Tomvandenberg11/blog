@@ -131,6 +131,12 @@ body {
     width: 80%;
 }
 
+#over h2 {
+    font-weight: 100;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
 #over p {
     font-size: 20px;
 }
