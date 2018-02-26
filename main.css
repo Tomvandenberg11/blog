@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 2000px;
+    background-color: #f5f5f5;
+    border-top: 2px solid black;
+}
+
+.topnav {
+    overflow: hidden;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#topnav-center {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.active {
+    background-color: #DDE7E9;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+#header {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    position: relative;
+    background-image: url(Images/pexels-photo-891683.jpeg);
+    background-position: center;
+    background-size: cover
+}
+
+#header img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 50%
+}
+
+#blog {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#blog h2 {
+    font-weight: 100;
+    font-size: 50px;
+}
+
+#blog h3 {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.blog-post {
+    margin-top: 30px;
+    height: 250px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.blog-post h3 {
+    padding-top: 20px;
+}
+
+.blog-post h4 {
+    font-weight: 100;
+}
+
+.blog-post img {    
+    width: 350px;
+}
+
+.blog-post p {
+    margin-top: 20px;
+    float: right
+}
+
+.blog-post p a {
+    text-decoration: none;
+    transition: .5s;
+}
+
+.blog-post p a:hover {
+    color: darkorange;
+    transition: .5s;
+}
+
+.blog-post-content {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+#over {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+}
+
+#over p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

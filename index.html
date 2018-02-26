@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>BLOG | Tom van den Berg</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <div class="topnav" id="myTopnav">
+        <div id="topnav-center">
+          <a href="index.html" class="active">Blog</a>
+          <a href="bedrijf.html">Over bedrijf</a>
+          <a href="over.html">Over mij</a>
+        </div>
+    </div>
+    
+    <div id="header">
+        <img src="Images/SO-logo.png" alt="Studio-Online">
+    </div>
+      
+    <div id="blog">
+        <h2>Stage blog</h2><br><br> 
+        <h3>Berichten</h3><br>
+        <div class="blog-post">
+            <div class="blog-post-content">
+                <h3>De eerste twee weken voorbij</h3><br>
+                <h4>De start van de eerste stageperiode, 26 februari 2018</h4><br>
+                <img src="Images/SO-logo.png"><br>
+            <p><button style="margin-top: -100px;" type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Lees meer</button></p>
+                <div id="myModal" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Mijn verwachtingen voor deze stage</h4>
+                      </div>
+                      <div class="modal-body">
+                        Some text in the modal.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-post">
+            <div class="blog-post-content">
+                <h3>Mijn verwachtingen voor deze stage</h3><br>
+                <h4>De start van de eerste stageperiode, 26 februari 2018</h4><br>
+                <img src="Images/SO-logo.png"><br>
+            <p><button style="margin-top: -100px;" type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Lees meer</button></p>
+                <div id="myModal" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Mijn verwachtingen voor deze stage</h4>
+                      </div>
+                      <div class="modal-body">
+                        Some text in the modal.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $("#myBtn").click(function(){
+                $("#myModal").modal();
+            });
+        });  
+    </script>  
+      
+  </body>
+
+</html>
